@@ -1,0 +1,89 @@
+/* 	body 960px
+	section 495px
+	background color #777
+	content color #ebebeb
+	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   * font-size: 18px
+
+*/
+
+body {
+	background-color: #777;
+	font-family: "Arial", "helvetica Neue", "Helvetica", sans-serif;
+	font-size: 18px;
+	width: 960px;
+	text-align: center;
+	/*! margin: auto; */
+	margin: auto;
+	
+}
+
+/* set background colors */
+header, nav, footer {
+	background-color: #ebebeb;
+	width: 100%;
+	color: #777;
+
+	/*! margin: 20px; */
+	margin: 10px;
+	padding-top: 15px;
+}
+
+/*set height */
+
+header, nav, footer {
+	height: 40px;
+	margin: 10px auto;
+}
+
+.sections {
+	width: 495px;
+	float: left;
+	display: inline;
+	margin-bottom: 10px;
+	background-color: #ebebeb;
+	color: #777;
+	padding: 20px;
+	
+}
+
+aside {
+	width: 40%;
+	display: inline;
+	background-color: #ebebeb;
+	float: right;
+	margin-bottom: 10px;
+	color: #777;
+	height: 274px;
+	padding-top: 20px;
+	/*  margin: 10px; */
+}
+
+article {
+	margin: 100px 10px 10px;
+	background-color: #9b9b9b;
+	color: #ebebeb;
+	padding: 5px;
+	
+	/*! height: 200px; */
+	border: 10px;
+}
+
+
+.clear {
+	clear: both;
+}
+
+h1, h2, h3 {
+	background-color: #ebebeb;
+	color: #777; 
+	font-weight: bold;
+	margin: 20px;
+
+}
+
+p {
+	background-color: #ebebeb;
+	color: #777;
+}
